@@ -1,4 +1,4 @@
-const WORKER_URL = "https://YOUR-WORKER.workers.dev";
+const WORKER_URL = "https://crab-news-worker.anyberg-1d4.workers.dev";
 
 const VIDEO_ID = "LDU_Txk06tM";
 const REFRESH_MS = 30000;
