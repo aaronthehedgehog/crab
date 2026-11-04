@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <title>Crab News Network 🦀</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div>
+      <h1>🦀 CRAB NEWS NETWORK</h1>
+      <p>NOISESTORM • CRAB RAVE • MONSTERCAT</p>
+    </div>
+    <div class="live">
+      <span class="live-dot"></span>
+      <span id="connection">CONNECTING</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="broadcast">
+      <div class="broadcast-label">
+        <span>THE WORLD IS HAPPENING</span>
+        <span id="clock"></span>
+      </div>
+      <div class="ticker">
+        <span>BREAKING NEWS 🦀 THE CRABS ARE STILL DANCING 🦀</span>
+      </div>
+    </section>
+
+    <section class="chat-panel">
+      <div class="chat-heading">
+        <h2>INCOMING TRANSMISSIONS</h2>
+        <span id="count">0 COMMENTS</span>
+      </div>
+      <div id="status-message" class="status-message">
+        Establishing connection to Crab HQ...
+      </div>
+      <div id="chat" class="chat"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>CRAB NEWS NETWORK</span>
+    <span>INDEPENDENT COMMENT BROADCAST</span>
+    <button id="pause">PAUSE AUTO-SCROLL</button>
+    <button id="fullscreen">FULL SCREEN</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
